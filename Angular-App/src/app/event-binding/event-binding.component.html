@@ -1,0 +1,14 @@
+<div>
+
+    <h1 *ngIf="showTxt" [class]="colorClass" >
+        Showing after click
+    </h1>
+</div>
+
+
+<button (click)="showText($event)" > Click on Button </button>
+
+
+
+
+<h5 (click)="showText($event)" > Click on H5 </h5>
