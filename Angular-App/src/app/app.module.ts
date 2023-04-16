@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudentlistComponent } from './studentlist/studentlist.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentlistComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwowaybindingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
