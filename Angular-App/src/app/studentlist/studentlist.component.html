@@ -1,0 +1,29 @@
+
+<div>
+
+   <h1 [class]="colorclass"> {{pagename}}</h1>
+
+   <ul >
+
+    <li    *ngFor="let record of records;"    >
+        {{record.name}}
+    </li>
+    <button disabled  > Submit </button>
+
+    <input type="text"  read>
+
+    <img src="" [alt]="imageAttr">
+    <!-- <li>
+        {{record[0].name}}
+        
+    </li>
+    <li>
+       
+        {{record[2].name}}
+    </li>
+    <li>
+       
+        {{record[2].name}}
+    </li> -->
+   </ul>
+</div>
