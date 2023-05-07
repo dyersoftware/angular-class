@@ -1,0 +1,29 @@
+<p>angular-pipes works!</p>
+
+
+<h1> {{firstName   |   titlecase }}  </h1>
+
+
+<h2>{{ 4  | currency }}</h2>
+
+
+
+<h1 class="text-center"> Post List </h1>
+<div>
+
+    <div class="container">
+        <div class="row">         
+          <div class="col-sm" *ngFor="let item of posts; index as i">
+            <div class="card" >
+                <div class="card-body">
+                   <h5 class="card-title"> {{item.title}} </h5>
+                   <p class="card-text">{{item.body}}</p>
+                   <a href="#" class="btn btn-primary">Go somewhere</a>
+                 </div>
+               </div>
+          </div>
+        </div>
+      </div>
+
+   
+</div>
